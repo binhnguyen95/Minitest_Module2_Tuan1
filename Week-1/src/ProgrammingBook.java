@@ -4,7 +4,6 @@ public class ProgrammingBook extends Book {
     String language;
     String framework;
 
-//    static int countPro;
 
     protected ProgrammingBook() {
 
@@ -19,9 +18,6 @@ public class ProgrammingBook extends Book {
         super(bookCode, name, price, author);
         this.language = language;
         this.framework = framework;
-        if (language == "Java") {
-//            countPro++;
-        }
     }
 
     protected String getLanguage() {

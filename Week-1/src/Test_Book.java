@@ -5,15 +5,12 @@ public class Test_Book {
         FictionBook fic3 = new FictionBook(5, "To Paradise", 110, "Hanya Yanagihara", "Vien Tuong 5");
         FictionBook fic4 = new FictionBook(4, "Violeta", 30, "Isabel Allende", "Vien Tuong 1");
         FictionBook fic5 = new FictionBook(2, "The Magnolia Palace", 150, "Fiona Davis", "Vien Tuong 1");
-        //        System.out.println(FictionBook.countCategory);
-        //        System.out.println(FictionBook.countPrice);
 
         ProgrammingBook pro1 = new ProgrammingBook(15, "Clean Code", 60, "Robert Martin", "Java", "Libraries");
         ProgrammingBook pro2 = new ProgrammingBook(25, "To Hoc Lap Trinh", 770, "Nhieu Tac Gia", "Scratch", "Libraries");
         ProgrammingBook pro3 = new ProgrammingBook(13, "Lap Trinh 7", 650, "Mr.P", "Python", "API");
         ProgrammingBook pro4 = new ProgrammingBook(55, "Lap Trinh 0", 90, "Mr.W", "C++", "Scaffolding");
         ProgrammingBook pro5 = new ProgrammingBook(76, "Lap Trinh 10", 340, "Mr.Q", "Java", "AJAX");
-        //        System.out.println(ProgrammingBook.countPro);
 
 
         FictionBook[] array1 = {fic1, fic2, fic3, fic4, fic5};
