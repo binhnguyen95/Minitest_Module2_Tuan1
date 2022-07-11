@@ -1,48 +1,51 @@
+package BookType;
+
+
 public class Book {
     int BookCode;
     String name;
     int price;
     String author;
 
-    protected Book() {
+    public Book() {
     }
 
-    protected Book(int bookCode, String name, int price, String author) {
+    public Book(int bookCode, String name, int price, String author) {
         BookCode = bookCode;
         this.name = name;
         this.price = price;
         this.author = author;
     }
 
-    protected int getBookCode() {
+    public int getBookCode() {
         return BookCode;
     }
 
-    protected void setBookCode(int bookCode) {
+    public void setBookCode(int bookCode) {
         BookCode = bookCode;
     }
 
-    protected String getName() {
+    public String getName() {
         return name;
     }
 
-    protected void setName(String name) {
+    public void setName(String name) {
         this.name = name;
     }
 
-    protected int getPrice() {
+    public int getPrice() {
         return price;
     }
 
-    protected void setPrice(int price) {
+    public void setPrice(int price) {
         this.price = price;
     }
 
-    protected String getAuthor() {
+    public String getAuthor() {
         return author;
     }
 
-    protected void setAuthor(String author) {
+    public void setAuthor(String author) {
         this.author = author;
     }
 
